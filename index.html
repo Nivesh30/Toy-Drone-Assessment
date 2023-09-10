@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Toy Drone Simulator</title>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <img class="logo" src="logo.png" alt="Storm Craft Studios">
+        </div>
+        <h1>Toy Drone Simulator</h1>
+        <div class="commands">
+            <input id="commandInput" type="text" placeholder="Enter a command">
+            <button id="executeCommand">EXECUTE</button>
+            <br><br>
+            <button id="moveButton">MOVE</button>
+            <button id="leftButton">LEFT</button>
+            <button id="rightButton">RIGHT</button>
+            <button id="attackButton">ATTACK</button>
+            <button id="reportButton">REPORT</button>
+        </div>
+        <table id="grid-table">
+            <!-- <td id="drone-cell" class="drone"></td> -->
+        </table>
+        <div class="output">
+            <h2>Output:</h2>
+            <pre id="outputText"></pre>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

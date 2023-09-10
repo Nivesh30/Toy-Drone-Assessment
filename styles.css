@@ -1,0 +1,116 @@
+    .drone-icon {
+    width: 20px;
+    height: 20px; 
+    transform-origin: center center;
+    transition: transform 0.3s ease-in-out;
+}
+
+img.drone-north {
+    transform: rotate(0deg);
+}
+
+img.drone-east {
+    transform: rotate(90deg);
+}
+
+img.drone-south {
+    transform: rotate(180deg);
+}
+
+img.drone-west {
+    transform: rotate(-90deg);
+}
+
+
+#grid-table {
+    display: none;
+    padding: 5px;
+}
+
+
+
+
+.cell {
+    padding: 10px;
+    display: inline-table;
+}
+.grid {
+    display: table;
+}
+
+td {
+    
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.explosion {
+    height: 15px;
+    width: 15px;
+}
+
+
+.logo {
+    width: 75%;
+}
+
+
+
+body {
+    font-family: "Montserrat-Regular", Sans-serif;
+    font-weight: bold;
+    background-image: url(bg1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin: 0px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+}
+
+h1 {
+    color: #fff;
+    font-family: "ArcaMajora Bold", Sans-serif;
+    font-size: 30px;
+}
+
+
+.commands {
+    display: block;
+
+}
+
+#commandInput {
+    flex: 1;
+    padding: 5px;
+    font-size: 16px;
+}
+
+button {
+    font-family: "ArcaMajora Bold", Sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    fill: #000000;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.output {
+    margin-top: 20px;
+}
+
+pre {
+    font-size: 16px;
+    background-color: #3f444b;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}
